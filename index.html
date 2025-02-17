@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Poem Generator</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
     <h1>AI poem generator</h1>
     </header>
     <main>
-        <form>
+        <form id="poem-form">
             <input type="text" placeholder="Please enter the topic of poem"
             autofocus
             required
@@ -20,10 +21,7 @@
             class="instructions" />
             <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-            Roses are red
-            <br/>
-            Violets are blue
+        <div class="poem" id="poem">
         </div>
     </main>
     <footer>This AI project was coded by <a href="https://github.com/mozhganpe66" target="_blank">Mozhgan P</a> and is <a href="https://github.com/mozhganpe66/poem-generator" target="_blank"> open-sourced on Github</a> and is hosted on 
