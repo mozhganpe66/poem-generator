@@ -19,7 +19,7 @@ function generatePoem(event){
     axios.get(apiUrl).then(displayPoem);
     let poemElement= document.querySelector("#poem");
     poemElement.classList.remove("hidden");
-    poemElement.innerHTML = `<div class="blink"> Generating the Poem about ${userInstructions.value}</div>`
+    poemElement.innerHTML = `<div class="blink">  ⏳ Generating the Poem about ${userInstructions.value}</div>`
     console.log("poem is generating...");
     console.log(prompt)
     console.log(context)
