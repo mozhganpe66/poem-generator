@@ -1,7 +1,7 @@
 # Project title: 
 Poem-generator using AI. 
 
-# What the project does
+# What the project does:
 This project generates and displays short poem using AI api. it generates based on the context and prompt we give to AI. In this project our context is romantic and short poem. It generates 4 sentences in the form of HTML because we give the context like this. If we gave to generate long sentences, then it performed based on that.
 So here we use the concept of prompt engineering. The use case of this project can be if some users want to generate a song or poem based on the topic they are thinking,
 it can be useful to use this project. 
@@ -13,29 +13,31 @@ In generate poem function, we define the context and prompt and we send http get
 
 In display poem function, we use typewriter effect or library to show the text in an attractive and userfriendly way to users. 
 
+We use css file for make our project looks better. 
+
 # Features 🚀: 
 - Search engine
 - generate poem using AI api
 - Dispaly poem in an attrictive way using Typewriter effect 
 
-## instalation 📦:
+# instalation 📦:
 instructions on how to install this project in your local machine:
 
-# Clone the project from github using below instruction in your computer terminal:
+## Clone the project from github using below instruction in your computer terminal:
 git clone https://github.com/mozhganpe66/poem-generator.git
 
-# change your directory to the desired location you would like to clone this repository using:
+## change your directory to the desired location you would like to clone this repository using:
 
 cd project-name
 
-# open visual studio code and open the folder where you cloned your project: 
+## open visual studio code and open the folder where you cloned your project: 
 
 vscode => file => open folder
 
-# right click on the html file:
+## right click on the html file:
 index.html => rightclick and select from menu=> Reveal in file explorer
 
-# open the index.html file and see the html file in the browser
+## open the index.html file and see the html file in the browser
 after revealing the html file in the file explorer, you can double-click on it and it opens up the html file so you can see how the project works(You run the project)
 
 
